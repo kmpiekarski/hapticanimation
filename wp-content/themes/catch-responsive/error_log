@@ -1,0 +1,5 @@
+[05-Aug-2016 21:20:49] PHP Fatal error:  Call to undefined function  wp_get_theme() in /home5/filmands/public_html/hapticanimation/wp-content/themes/catch-responsive/functions.php on line 16
+[07-Aug-2016 09:13:36] PHP Fatal error:  Call to undefined function  do_action() in /home5/filmands/public_html/hapticanimation/wp-content/themes/catch-responsive/header.php on line 16
+[07-Aug-2016 09:13:39] PHP Fatal error:  Call to undefined function  do_action() in /home5/filmands/public_html/hapticanimation/wp-content/themes/catch-responsive/footer.php on line 20
+[09-Aug-2016 23:03:19] PHP Fatal error:  Call to undefined function  wp_get_theme() in /home5/filmands/public_html/hapticanimation/wp-content/themes/catch-responsive/functions.php on line 16
+[10-Aug-2016 08:11:29] PHP Fatal error:  Call to undefined function  wp_get_theme() in /home5/filmands/public_html/hapticanimation/wp-content/themes/catch-responsive/functions.php on line 16

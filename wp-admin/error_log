@@ -1,0 +1,1290 @@
+[10-Jul-2015 13:46:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cwa_type='menu'' at line 1 for query SELECT * FROM   WHERE cwa_type='menu' made by activate_plugin, include_once('/plugins/wp-custom-widget-area/wp-custom-widget-area.php'), run_plugin_name, Custom_Widget_Area->__construct, Custom_Widget_Area->define_admin_hooks, Custom_Widget_Area_Admin->__construct, Custom_Widget_Area_Admin->registerMenuLocations, Custom_Widget_Area_Admin->getall_menu
+[10-Jul-2015 13:46:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			id mediumint(9) NOT NULL AUTO_INCREMENT,
+			cwa_name tinytext NOT NULL,
+			' at line 1 for query CREATE TABLE  (
+			id mediumint(9) NOT NULL AUTO_INCREMENT,
+			cwa_name tinytext NOT NULL,
+			cwa_description text NOT NULL,
+			cwa_id varchar(100) NOT NULL ,
+			cwa_widget_class text ,
+			cwa_widget_wrapper varchar(25),
+			cwa_widget_header_class text,
+			cwa_widget_header_wrapper varchar(25),
+			cwa_type varchar(10),
+			last_updated date NOT NULL,
+			UNIQUE KEY id (id)
+		) DEFAULT CHARACTER SET utf8 made by activate_plugin, do_action('activate_wp-custom-widget-area/wp-custom-widget-area.php'), call_user_func_array, Custom_Widget_Area_Activator::activate, Custom_Widget_Area_Activator::install_db, dbDelta
+[10-Jul-2015 13:46:05 UTC] WordPress database error Table 'filmands_wordpresse2c.wp_dnug_cwa' doesn't exist for query SELECT * FROM wp_dnug_cwa  WHERE cwa_type='menu' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wp-custom-widget-area/wp-custom-widget-area.php'), run_plugin_name, Custom_Widget_Area->__construct, Custom_Widget_Area->define_admin_hooks, Custom_Widget_Area_Admin->__construct, Custom_Widget_Area_Admin->registerMenuLocations, Custom_Widget_Area_Admin->getall_menu
+[10-Jul-2015 13:46:05 UTC] WordPress database error Duplicate column name 'cwa_type' for query ALTER TABLE wp_dnug_cwa ADD cwa_type varchar (10)  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, myplugin_update_db_check
+[11-Jul-2015 14:49:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'lumia_portfolio' not found in /home5/filmands/public_html/hapticanimation/wp-includes/plugin.php on line 496
+[29-Sep-2015 21:18:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1441065600 AND 1443536281' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1441065600 AND 1443536281 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:10:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031419' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031419 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:11:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031478' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031478 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:12:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031538' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031538 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:13:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031599' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031599 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:14:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031659' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031659 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:15:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031719' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031719 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:16:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031780' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031780 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:17:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031841' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031841 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:18:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031901' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031901 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:19:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447031961' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447031961 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:20:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032021' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032021 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:21:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032081' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032081 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:22:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032142' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032142 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:23:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032203' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032203 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:24:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032263' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032263 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:25:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032324' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032324 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:26:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032386' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032386 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:27:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032446' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032446 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:28:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032507' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032507 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:29:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032567' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032567 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:30:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032627' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032627 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:31:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032689' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032689 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:32:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032750' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032750 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:33:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032812' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032812 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:34:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032876' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032876 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:35:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032937' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032937 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:36:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447032997' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447032997 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:37:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033061' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033061 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:38:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033124' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033124 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:39:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033188' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033188 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:40:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033249' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033249 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:41:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033309' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033309 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:42:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033369' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033369 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:43:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033430' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033430 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:44:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033494' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033494 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:45:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033555' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033555 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:46:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033619' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033619 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:48:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033681' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033681 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:49:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033741' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033741 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:50:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033802' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033802 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:51:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033864' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033864 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:52:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033926' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033926 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:53:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447033988' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447033988 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:54:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034050' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034050 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:55:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034111' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034111 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:56:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034173' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034173 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:57:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034233' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034233 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:58:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034294' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034294 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 09:59:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034354' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034354 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:00:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034416' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034416 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:01:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034479' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034479 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:02:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034539' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034539 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:03:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034600' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034600 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:04:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034664' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034664 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:05:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034727' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034727 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:06:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034788' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034788 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:07:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034853' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034853 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:08:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034914' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034914 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:09:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447034975' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447034975 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:10:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035036' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035036 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:11:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035096' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035096 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:12:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035157' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035157 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:13:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035217' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035217 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:14:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035278' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035278 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:15:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035338' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035338 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:16:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035411' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035411 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:17:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035464' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035464 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:18:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035530' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035530 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:19:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035593' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035593 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:20:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035653' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035653 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:21:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035714' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035714 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:22:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035775' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035775 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:23:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035837' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035837 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:24:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035899' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035899 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:26:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447035960' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447035960 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:27:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036021' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036021 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:28:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036081' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036081 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:29:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036141' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036141 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:30:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036202' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036202 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:31:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036262' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036262 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:32:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036324' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036324 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:33:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036384' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036384 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:34:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036445' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036445 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:35:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036508' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036508 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:36:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036570' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036570 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:37:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036630' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036630 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:38:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036690' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036690 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:39:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036756' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036756 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:40:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036823' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036823 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:41:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036883' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036883 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:42:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447036944' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447036944 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:43:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037005' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037005 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:44:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037068' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037068 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:45:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037130' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037130 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:46:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037191' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037191 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:47:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037252' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037252 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:48:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037313' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037313 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:49:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037374' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037374 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:50:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037435' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037435 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:51:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037495' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037495 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:52:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037556' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037556 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:53:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037619' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037619 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:54:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037681' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037681 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:55:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037743' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037743 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:56:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037803' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037803 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:57:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037864' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037864 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:58:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037925' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037925 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 10:59:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447037986' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447037986 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:00:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038048' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038048 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:01:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038110' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038110 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:02:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038171' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038171 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:03:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038239' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038239 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:05:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038314' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038314 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:06:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038378' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038378 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:07:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038445' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038445 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:08:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038519' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038519 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:09:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038581' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038581 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:10:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038644' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038644 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:11:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038706' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038706 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:12:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038772' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038772 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:13:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038833' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038833 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:14:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038894' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038894 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:15:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447038954' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447038954 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:16:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039015' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039015 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:17:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039077' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039077 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:18:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039137' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039137 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:19:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039198' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039198 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:21:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039261' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039261 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:22:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039329' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039329 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:23:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039392' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039392 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:24:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039453' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039453 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:25:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039513' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039513 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:26:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039575' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039575 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:27:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039638' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039638 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:28:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039697' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039697 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:29:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039759' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039759 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:30:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039821' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039821 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:31:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039882' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039882 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:32:23 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447039943' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447039943 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:33:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040004' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040004 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:34:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040065' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040065 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:35:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040127' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040127 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:36:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040188' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040188 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:37:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040249' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040249 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:38:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040310' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040310 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:39:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040371' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040371 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:40:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040433' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040433 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:41:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040495' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040495 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:42:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040558' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040558 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:43:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040619' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040619 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:44:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040682' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040682 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:45:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040743' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040743 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:46:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040805' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040805 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:47:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040871' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040871 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:48:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040932' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040932 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:49:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447040996' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447040996 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:51:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041066' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041066 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:52:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041128' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041128 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:53:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041188' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041188 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:54:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041250' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041250 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:55:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041317' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041317 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:56:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041378' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041378 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:57:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041439' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041439 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:58:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041511' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041511 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 11:59:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041573' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041573 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:00:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041633' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041633 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:01:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041694' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041694 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:02:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041755' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041755 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:03:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041820' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041820 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:04:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041881' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041881 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:05:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447041950' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447041950 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:06:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042015' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042015 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:07:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042077' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042077 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:08:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042139' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042139 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:10:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042203' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042203 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:11:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042263' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042263 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:12:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042323' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042323 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:13:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042384' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042384 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:14:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042445' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042445 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:15:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042514' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042514 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:16:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042582' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042582 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:17:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042648' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042648 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:18:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042712' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042712 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:19:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042773' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042773 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:20:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042835' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042835 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:21:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042896' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042896 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:22:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447042956' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447042956 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:23:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043018' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043018 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:24:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043079' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043079 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:25:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043138' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043138 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:26:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043199' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043199 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:27:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043260' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043260 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:28:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043320' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043320 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:29:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043380' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043380 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:30:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043442' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043442 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:31:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043502' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043502 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:32:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043562' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043562 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:33:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043622' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043622 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:34:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043691' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043691 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:35:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043758' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043758 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:37:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043822' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043822 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:38:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043888' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043888 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:39:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447043951' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447043951 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:40:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044011' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044011 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:41:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044073' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044073 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:42:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044136' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044136 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:43:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044212' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044212 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:44:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044273' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044273 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:45:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044334' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044334 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:46:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044395' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044395 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:47:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044457' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044457 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:48:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044528' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044528 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:49:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044591' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044591 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:50:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044651' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044651 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:51:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044710' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044710 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:52:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044770' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044770 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:53:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044830' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044830 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:55:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044906' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044906 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:56:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447044968' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447044968 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:57:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045033' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045033 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:58:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045094' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045094 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 12:59:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045157' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045157 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:00:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045222' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045222 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:01:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045285' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045285 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:02:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045349' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045349 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:03:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045409' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045409 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:04:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045473' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045473 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:05:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045534' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045534 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:06:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045596' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045596 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:07:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045656' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045656 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:08:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045717' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045717 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:09:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045776' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045776 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:10:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045839' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045839 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:11:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045900' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045900 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:12:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447045960' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447045960 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:13:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046021' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046021 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:14:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046081' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046081 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:15:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046144' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046144 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:16:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046207' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046207 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:17:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046267' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046267 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:18:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046327' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046327 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:19:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046387' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046387 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:20:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046447' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046447 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:21:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046508' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046508 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:22:51 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046571' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046571 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:23:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046632' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046632 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:24:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046693' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046693 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:25:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046754' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046754 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:26:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046814' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046814 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:27:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046874' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046874 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:28:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046935' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046935 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:29:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447046995' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447046995 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:30:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047059' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047059 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:32:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047121' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047121 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:33:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047189' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047189 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:34:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047251' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047251 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:35:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047317' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047317 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:36:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047377' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047377 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:37:18 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047438' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047438 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:38:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047499' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047499 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:40:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047619' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047619 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:40:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047619' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047619 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:41:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047680' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047680 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:42:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047744' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047744 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:43:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047804' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047804 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:44:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047864' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047864 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:45:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047925' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047925 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:46:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447047986' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447047986 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:47:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048047' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048047 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:48:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048107' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048107 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:49:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048168' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048168 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:50:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048228' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048228 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:51:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048292' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048292 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:52:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048352' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048352 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:53:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048412' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048412 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:54:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048473' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048473 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:55:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048533' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048533 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:56:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048596' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048596 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:57:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048658' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048658 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:58:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048718' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048718 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 13:59:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048779' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048779 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:00:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048839' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048839 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:01:40 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048900' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048900 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:02:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447048963' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447048963 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:03:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049024' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049024 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:04:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049084' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049084 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:05:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049153' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049153 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:06:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049214' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049214 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:07:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049276' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049276 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:08:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049336' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049336 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 14:09:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447049399' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447049399 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[09-Nov-2015 17:06:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s AND dt BETWEEN 1446336000 AND 1447059987' at line 3 for query 
+			SELECT COUNT(id) counthits
+			FROM wp_dnug_slim_stats
+			WHERE author = %s AND dt BETWEEN 1446336000 AND 1447059987 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wp_slimstat_admin::init, wp_slimstat_reports::init, wp_slimstat_db::count_records, wp_slimstat_db::get_var
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:56 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[18-Aug-2016 18:11:58 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[18-Aug-2016 19:07:14 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[18-Aug-2016 21:29:06 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[18-Aug-2016 22:49:38 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 00:08:05 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 01:31:05 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 04:02:50 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 07:56:14 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 15:53:26 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 15:54:12 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 16:23:27 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 16:38:17 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'mailparse' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'oci8' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'uploadprogress' already loaded in Unknown on line 0
+[19-Aug-2016 17:46:08 America/Denver] PHP Warning:  Module 'ionCube Loader' already loaded in Unknown on line 0
